@@ -1,0 +1,53 @@
+body{
+  background-image: url(../img/background.png);
+  margin: 0;
+  padding: 0;
+  background-size: 100%;
+  color: #e6e6e6;
+}
+
+.main{
+  width: 75%;
+  margin: 0 auto;
+}
+
+.top{
+  width: 100%;
+  margin-top: 57px;
+}
+
+.contacts{
+  float: right;
+  margin-right: 50px;
+  padding-top: 78px;
+}
+
+.contacts p{
+  margin: 0;
+}
+
+.content{
+  width: 100%;
+}
+
+footer{
+  margin-top: 100px;
+  width: 100%;
+}
+
+footer p {
+  text-align: center;
+}
+
+.first{
+  margin:0;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.second{
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}

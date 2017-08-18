@@ -1,0 +1,127 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #F9F9F9;
+  font-family: 'Open Sans', sans-serif;
+}
+.menu{
+  background: linear-gradient(to top, #565555, #5E5E5E);
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 40px;
+  margin-top: 40px
+  }
+
+.top-menu{
+  margin: 0;
+}
+
+.top-menu li{
+  display: inline-block;
+  padding: 15px;
+  height: 100%;
+  }
+  .top-menu li:hover{
+    background: linear-gradient(to top, #424242, #4A4A4A);
+    border-left: 1px white solid;
+    border-right: 1px white solid;
+  }
+
+.container{
+  width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+}
+
+.left-menu{
+  overflow: hidden;
+  float: left;
+}
+
+.left-menu ul{
+  float: left;
+  list-style: none;
+  padding: 0;
+  margin:0;
+  width: 440px;
+  border: 1px #C8C8C8 solid;
+}
+
+.left-menu ul li{
+  border-bottom: 1px #C8C8C8 solid;
+}
+
+.left-menu ul li:last-child {
+  border-bottom: none;
+}
+
+.left-menu ul li a{
+  padding: 11px 20px;
+  display: block;
+  text-decoration: none;
+  color: #656363;
+}
+
+.left-menu ul li:hover{
+  padding-left: 32px;
+  background-color: #F9F9F9;
+}
+
+article{
+  float: right;
+  vertical-align: top;
+  width: calc(100% - 440px - 2px);
+}
+
+section{
+  overflow: hidden;
+}
+
+.bike{
+  margin-left: 40px;
+  border: 1px #C8C8C8 solid;
+}
+
+.text{
+  width: 680px;
+}
+
+.text p{
+  padding-left: 40px;
+}
+
+footer {
+  background-color:#E1E1E1;
+  width: 100%;
+  margin-top: 58px;
+  overflow: hidden;
+}
+
+footer span {
+  float: right;
+  margin: 1em;
+}
+
+footer ul {
+  display: inline-block;
+}
+
+.bottom-menu li{
+  display: inline-block;
+  padding-right: 80px;
+}
+
+.bottom-menu li a{
+  color: #2c2c2c;
+  text-decoration: none;
+}
+
+.bottom-menu li a:hover{
+  text-decoration: underline;
+}
+
+footer div span{
+  text-align: right;
+  display: inline-block;
+}
